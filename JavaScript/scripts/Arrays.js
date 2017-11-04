@@ -1,5 +1,7 @@
 
 function arraysExample() {
+    console.clear(); // clear the chrome browser console.
+    
     var arr = ["one", "two", "three"];
     console.log("Consider an array: [" + arr + "]");
     var joinedArr = arr.join("-");

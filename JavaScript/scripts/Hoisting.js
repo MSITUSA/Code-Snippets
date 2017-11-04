@@ -1,4 +1,6 @@
 function hoistingExample () {
+    console.clear(); // clear the chrome browser console.
+    
     console.log("hoistingExample(): before declaration: outerVar=" + outerVar);
     console.log("outerVar is undefined above, but still does not throw ReferenceError because of hoisting");
     console.log("If we use let instead of var the above line would throw ReferenceError");

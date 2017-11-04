@@ -2,6 +2,8 @@
    Object Creation Patterns.
 */
 function objectCreationExample() {
+    console.clear(); // clear the chrome browser console.
+    
     /*
    Creating objects using literal notation.
   */
