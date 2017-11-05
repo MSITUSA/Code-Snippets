@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+             <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+                         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+             <title>Watch</title>
+             <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body ng-app="app">
+  <div ng-controller="emp">
+  a = <input ng-model="a" ng-change="updateC()"/> <!--watcher 1--> <!-- here ng-switch works with ng-model in the background.
+  when ever value 'a' is changed function updateC() will get executed-->
+  <div> a = {{a}}</div> <!--watcher 2-->
+
+  <div>b = {{b}}</div> <!--watcher 3-->
+</div>
+<!--<script src="watch.js"></script>-->
+<script src="RefWatch.js"></script>
+</body>
+</html>

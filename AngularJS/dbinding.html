@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+<meta charset="UTF-8">
+             <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+                         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+             <title>Expression</title>
+             <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+</head>
+<body>
+  <div ng-app="myApp" ng-controller="myCtrl">
+Quantity:<input type="number" ng-model="quantity"></br>
+Price: <input type="number" ng-model="price"></br>
+Total price is: {{ quantity * price }}
+</div>
+<script src="dbinding.js" type="text/javascript"></script>
+</body>
+</html>
